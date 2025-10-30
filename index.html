@@ -156,13 +156,12 @@
     // Dark Mode dengan ikon yang sesuai
     const toggleBtn = document.getElementById('darkModeToggle');
     const body = document.body;
-
-    // Cek preferensi dari localStorage
+    
     if (localStorage.getItem('dark-mode') === 'true') {
       body.classList.add('dark-mode');
-      toggleBtn.textContent = '🌙'; // ikon bulan saat dark mode aktif
+      toggleBtn.textContent = '🌙'; 
     } else {
-      toggleBtn.textContent = '☀️'; // ikon matahari saat light mode aktif
+      toggleBtn.textContent = '☀️'; 
     }
 
     toggleBtn.addEventListener('click', () => {

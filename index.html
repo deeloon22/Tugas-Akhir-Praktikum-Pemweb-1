@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Pribadi Saya</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MyPortfolio</h1>
+      <div class="nav-container">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+            <li><a href="#education">Riwayat Pendidikan</a></li>
+            <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <button id="darkModeToggle" class="dark-btn" title="Ganti Mode">☀️</button>
+        <div class="menu-toggle" id="menuToggle">☰</div>
+      </div>
+    </nav>
+  </header>
+  
+  <section id="home" class="hero">
+    <div class="hero-content fade-in">
+      <h2>Halo, Saya <span>Delon</span></h2>
+      <p>Seorang mahasiswa Teknik Informatika yang tertarik mendalami infrastruktur jaringan, serta mengembangkan sistem cerdas dan interaktif yang didukung oleh konektivitas Internet of Things (IoT).</p>
+      <a href="#projects" class="btn">Lihat Proyek Saya</a>
+    </div>
+  </section>
+
+   <section id="about" class="about reveal">
+    <h2>Tentang Saya</h2>
+    <div class="about-content">
+      <img src="Gambar 1.jpeg" alt="Foto Profil">
+      <div class="about-text">
+        <p>
+          Saya adalah mahasiswa Teknik Informatika yang bersemangat dalam merancang arsitektur jaringan yang andal, 
+          mengoptimalkan konektivitas, dan mengembangkan interaksi sistem cerdas melalui Internet of Things (IoT). 
+          Saya percaya bahwa infrastruktur jaringan yang terstruktur dengan baik adalah kunci untuk membuat teknologi terasa efisien dan berfungsi mulus.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="education" class="education reveal">
+    <h2>Riwayat Pendidikan</h2>
+    <div class="education-list">
+      <div class="education-item">
+        <h3>Universitas Lampung</h3>
+        <p class="edu-period">2023 — Sekarang</p>
+        <p>Program Studi: Teknik Informatika — IPK: 3.92</p>
+      </div>
+      <div class="education-item">
+        <h3>SMAN 3 Batusangkar</h3>
+        <p class="edu-period">2020 — 2023</p>
+        <p>Jurusan IPA — Nilai: 91.5</p>
+      </div>
+      <div class="education-item">
+        <h3>SMPN 1 Padang Ganting</h3>
+        <p class="edu-period">2017 — 2020</p>
+        <p>Nilai: 92</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills reveal">
+    <h2>Skills</h2>
+    <p class="skills-intro">Beberapa kemampuan teknis yang saya Kuasai:</p>
+    <div class="skills-grid">
+      <div class="skill">
+        <div class="skill-name">HTML &amp; CSS</div>
+        <div class="skill-bar"><div class="skill-level" style="width:75%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-bar"><div class="skill-level" style="width:70%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">React / Frontend</div>
+        <div class="skill-bar"><div class="skill-level" style="width:60%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">SQL Databases</div>
+        <div class="skill-bar"><div class="skill-level" style="width:70%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Cisco</div>
+        <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">C/C++</div>
+        <div class="skill-bar"><div class="skill-level" style="width:75%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">NodeRed</div>
+        <div class="skill-bar"><div class="skill-level" style="width:75%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Microsoft Office</div>
+        <div class="skill-bar"><div class="skill-level" style="width:90%"></div></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="projects reveal">
+    <h2>Proyek Saya</h2>
+    <div class="project-cards">
+      <div class="card glow-hover">
+        <h3>Website Portfolio</h3>
+        <p>Website Portofolio Pribadi yan terpusat untuk mendokumentasikan perjalanan akademis dan proyek-proyek teknis dengan menggunakan bahasa HTML dan CSS.</p>
+      </div>
+      <div class="card glow-hover">
+        <h3>Teknik Searching A* dan Learning Clustering K-Means</h3>
+        <p>Metode Machine Learning untuk mendeteksi diabetes berdasarkan dataset yang telah dilampirkan dan case yang telah dilatih.</p>
+      </div>
+      <div class="card glow-hover">
+        <h3>Projek Peternakan Ikan menggunakan Java</h3>
+        <p>Proyek Pemrograman Berorientasi Objek (OOP) menggunakan bahasa Java untuk klasifikasi data dan pengembangan Antarmuka Pengguna (UI) aplikasi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact reveal">
+    <h2>Kontak</h2>
+    <p>Masukan dan Saran dapat melalui from di bawah ini!</p>
+    <form>
+      <input type="text" placeholder="Nama" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Pesan" rows="5" required></textarea>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Delon. Dibuat dengan menggunakan HTML & CSS.</p>
+  </footer>
+
+  <script>
+    // Scroll reveal
+    const revealElements = document.querySelectorAll('.reveal');
+    window.addEventListener('scroll', () => {
+      for (let el of revealElements) {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) el.classList.add('active');
+      }
+    });
+
+    // Dark Mode dengan ikon yang sesuai
+    const toggleBtn = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    // Cek preferensi dari localStorage
+    if (localStorage.getItem('dark-mode') === 'true') {
+      body.classList.add('dark-mode');
+      toggleBtn.textContent = '🌙'; // ikon bulan saat dark mode aktif
+    } else {
+      toggleBtn.textContent = '☀️'; // ikon matahari saat light mode aktif
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      const darkModeAktif = body.classList.contains('dark-mode');
+      toggleBtn.textContent = darkModeAktif ? '🌙' : '☀️';
+      localStorage.setItem('dark-mode', darkModeAktif);
+    });
+
+    // Hamburger Menu
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      menuToggle.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+    });
+  </script>
+</body>
+</html>

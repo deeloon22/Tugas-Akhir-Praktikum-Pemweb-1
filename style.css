@@ -7,7 +7,7 @@
 }
 
 :root{
-  --nav-height: 68px; /* adjust if you change navbar padding */
+  --nav-height: 68px; 
 }
 
 body {
@@ -26,7 +26,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 5%;
-  position: fixed; /* always visible */
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100%;
@@ -152,8 +152,8 @@ body {
 
 .about-content img {
   width: 250px;
-  height: 250px; /* ensure square so border-radius creates a circle */
-  object-fit: cover; /* crop image to fill square */
+  height: 250px; 
+  object-fit: cover; 
   border-radius: 50%;
   display: block;
   margin: 1rem;
@@ -241,7 +241,6 @@ body.dark-mode {
   color: #E0E0E0;
 }
 
-/* ensure page content isn't hidden under fixed navbar */
 body {
   padding-top: var(--nav-height);
 }
@@ -272,7 +271,6 @@ body.dark-mode textarea {
   border: 1px solid #2C74B3;
 }
 
-/* Make Education & Skills respect dark mode */
 body.dark-mode .education,
 body.dark-mode .skills {
   background: #13294B;
@@ -280,7 +278,7 @@ body.dark-mode .skills {
 }
 
 body.dark-mode .education-item {
-  background: #1E3A5F; /* match .card dark look */
+  background: #1E3A5F; 
   color: #E0E0E0;
   box-shadow: 0 6px 18px rgba(0,0,0,0.25);
 }
@@ -290,7 +288,6 @@ body.dark-mode .edu-period { color: #9fd3ff; }
 body.dark-mode .skill-bar { background: #0f2740; }
 body.dark-mode .skill-level { background: linear-gradient(90deg,#2C74B3,#58a0e0); }
 
-/* Mobile nav background in dark mode */
 body.dark-mode .nav-links {
   background: #102542;
 }
